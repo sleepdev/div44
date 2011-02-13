@@ -1,0 +1,72 @@
+/* clear */
+body,div,span,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,a,form,table,th,tr,td {margin: 0; padding: 0;}
+
+/* page */
+body {text-align: center; font: normal 10pt sans-serif; background: #516A89;  color: #000; line-height: 1.5em;}
+div#wrapper {width: 780px; margin: 0 auto; text-align: left;  border: 1px solid; border-color: #666 #333; background: url(/img/bg_wrapper.gif) repeat-y; position: relative;}
+* html div#wrapper {width: 782px;} /* Tan hack */
+
+/* headings */
+h2.section {font-size: 30px; color: #B45F58;}
+h2 {font-size: 20px; padding-bottom: 1em;}
+h3 {font-size: 16px; padding-bottom: .5em; padding-top: .5em; color: #5A5B51;}
+h4 {font-size: 14px; padding-bottom: .25em; color: #8B7393;}
+	
+/* basics */
+p,ul,ol,dd {padding-bottom: 1em;}
+ul,ol {margin-left: 1.25em;}
+a:link {color: #5A5B51;}
+a:visited {color: #8B7393;}
+img {border: 1px solid #B5B6B0;}
+
+/* divs */
+div#masthead {border-bottom: 1px solid #999; background: url(/img/bg_masthead.jpg) left top no-repeat; height: 125px;}
+div#masthead ul {list-style: none; text-align: right; padding-right: 20px; padding-top: 6px;}
+div#masthead li {display: inline; font-size: 85%; color: #555;}
+
+div#sidebar {width: 220px; float: left;}
+div#sidebar ul {list-style: none; margin-left: 0; padding-bottom: 0; background: #C8C9C3;}
+div#sidebar ul ul {margin-left: 1.25em; background: #FCFAF2;}
+
+div#sidebar li {padding: .6em 0 .6em 20px; border: 1px solid; border-color: #D1D2CD #C8C9C3 #B5B6B0 #C8C9C3; background: #C8C9C3;}
+div#sidebar li.current { background: #FCFAF2; border: none;}
+div#sidebar ul ul li {padding: 0 0 0 0; border: none; font-size: 85%; background: #FCFAF2;}
+div#sidebar ul ul li.current {list-style: disc;}
+/*div#sidebar ul ul li.bar {line-height: .25em; color: #B45F58;}*/
+
+div#sidebar a {color: #5A5B51; font-weight: bold; text-decoration: none; display: block;}
+div#sidebar li.current a {font-weight: bold; color: #B45F58;}
+div#sidebar li.current a:hover {text-decoration: underline;}
+div#sidebar li.current li a {font-weight: normal; display: inline;}
+div#sidebar li.current li a:hover {text-decoration: underline;}
+div#sidebar li.current li.current a {font-weight: bold; text-decoration: none; color: #1F211C;}
+
+div#content {padding: 2em 1.5em 0 250px;}
+div#content.home {padding-top: 270px;}
+div#content-inner{background: #fff;}
+
+div#footer {clear: both; margin-top: 100px; text-align: center; border-top: 1px solid #999; color: #555; background: #fff;}
+div#footer p {margin: 0; padding: .25em 0; font-size: 75%;}
+
+/* array */
+table#array {background: url(/img/bg_array.jpg) repeat-x; position: absolute; top: 125; left: 220; width: 560px;}
+table#array tr {valign: top;}
+table#array td#quote {color: #fff; text-align: right; font: normal 13px Times New Roman, Times, serif; font-style: italic; padding: 15px 10px 10px 20px;}
+
+/* home page table */
+table#home tr {}
+table#home td {width: 50%; padding-bottom: 20px;}
+table#home td.left {padding-right: 10px;}
+table#home td.right {padding-left: 10px;}
+table#home h4 {background: #705C76; color: #fff; text-align: center; margin-bottom: .5em;}
+table#home p {font-size: 80%;}
+/*table#home a {text-decoration: none;}*/
+table#home img {margin-left: 10px;}
+
+img.honors {float: right; margin-left: 2em; margin-bottom: 2em;}
+div.photo {margin-bottom: 20px;}
+span.photo {float: right; margin-left: 2em; margin-bottom: 1em;}
+.photo p {text-align: center; padding: .5em 1em; font-size: 75%; color: #555; line-height: 1em;}
+
+.no-top {margin-top: 0; padding-top: 0;}
+.no-bottom {margin-bottom: 0; padding-bottom: 0;}
