@@ -56,11 +56,17 @@ html { background: #516a89; }
 .blurb a:after { content: " »"; }
 .blurb img { float: right; width: 60px; height: 80px; border: 1px solid #b5b6b0; }
 
-#content h1 { padding-top: 40px; padding-left: 60px; font-size: 167%; }
+#content h1 { margin-top: 80px; margin-left: 60px; font-size: 167%; }
 .search { margin-top: 20px; margin-left: 56px; margin-bottom: 25px; }
 .search input[type="text"] { height: 34px; width: 387px; font-size: 123.1%; border: 1px solid #b5b6b0; padding-left: 10px; padding-right: 45px; }
 .search input[type="submit"] { background: url(_/magnify.png); height: 27px; width: 27px; position: relative; left: -37px; top: -5px; cursor: pointer; border: 0; }
 .sa { float: right; clear: right; margin-top: 10px; margin-right: 65px; }
+
+.options { color: white; background: url(_/featured_bg.jpg) 0 -50px repeat-x; }
+.options > div { display: table; margin-left: auto; margin-right: auto; border-right: 1px solid #b5b6b0; }
+.options > div div { float: left; display: table; padding: 10px 20px; border-left: 1px solid #b5b6b0; cursor: pointer; }
+.options > div div.active, .options > div div.active:hover { background: #fbfbf3; color: #333333; }
+.options > div div:hover { background: url(_/featured_bg.jpg) 0 -100px repeat-x; color: white; }
 
 .profile-blurb { display: block; margin-left: 46px; width: 444px; border: 1px solid #fbfbf3; padding: 9px; margin-top: 10px; }
 .profile-blurb:hover { text-decoration: none; background-color: #e8e8e0; border: 1px solid #b5b6b0; }
