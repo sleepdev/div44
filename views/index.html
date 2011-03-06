@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}APA Division 44{% end %}
+{% block content %}
+  <p id="featured">
+    <img src="{{ static_url("photo_julie.jpg") }}"/>
+    <span class="quote">Division 44 has always been my home in APA. There are wonderful people in this Division, truly concerned about LGBT issues, as well as each other.  If you're hesitant about getting involved with the Division, I urge you to dive in!</span>                   
+    <span class="author">Julie Konik</span>                        
+  </p>
+  <p id="mission">The American Psychological Association's Division 44 is psychology's focal point for research, practice, and education on the lives and realities of LGBT people. The president's theme for the Division this year is "Psychological Science Serves: Making LGBT Research Relevant".</p>
+  <div class="blurb">
+    <h6>LGBT psychology resources</h6>
+    <a href>Visit our rich compendium of guidelines, publications, bibliographies and more - everything you need to know about LGBT psychology.</a>
+    <img src="{{ static_url("home_resources.jpg") }}"/>
+  </div>
+  <div class="blurb">
+    <h6>Newsletter</h6>
+    <a href>Now available only online, download a PDF version of the latest issue.</a>
+    <img src="{{ static_url("home_newsletter.jpg") }}"/>
+  </div>
+  <div class="blurb">
+    <h6>Events</h6>
+    <a href>Join us for the APA Convention and the Multicultural Summit.</a>
+    <img src="{{ static_url("home_convention.jpg") }}"/>
+  </div>
+  <div class="blurb">
+    <h6>Meet our stars!</h6>
+    <a href>Learn about the movers and shakers of LBGT psychology and apply for grants.</a>
+    <img src="{{ static_url("home_honors.jpg") }}"/>
+  </div>
+{% end %}

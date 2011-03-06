@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>{% block title %}APA Division 44{% end %}</title>
+    <link rel="stylesheet" href="{{ static_url("styles.css") }}" type="text/css"/>
+  </head>
+  <body>
+    <div id="body">
+      <div id="header">
+        <ul>
+          <li><a href="/">Home</a><span>|</span></li>
+          <li><a href>Contact us</a></li>
+        </ul>
+      </div>
+      <div id="main" class="clearfix">
+        <div id="sidebar">
+          <a href="/"><div>Home</div></a>
+          <a><div>About Division 44</div></a>
+          <a><div>Leadership and committees</div></a>
+          <a><div>Our meetings</div></a>
+          <a href="/search"><div>Member profiles</div></a>
+          <a><div>Grants & honors</div></a>
+          <a><div>Division publications</div></a>
+          <a><div>Resources</div></a>
+          <a><div>Participate in Division 44</div></a>
+          <a><div>Contact us</div></a>
+        </div>
+        <div id="content">
+          {% block content %}{% end %}
+        </div>  
+      </div>
+      <div id="footer">
+        <p>Copyright © Society for the Psychological Study of Lesbian, Gay, Bisexual and Transgender Issues</p>
+      </div>  
+    </div>
+  </body>
+</html>
