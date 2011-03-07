@@ -4,14 +4,14 @@ APA Division 44 Website
 Server Administration
 ---------------------
 
-1. to set up a new web server from scratch
+I) to set up a new web server from scratch
     aptitude install git-core
     wget --no-check-certificate -O /usr/bin/gitmo https://github.com/sleepdev/gitmo/raw/master/gitmo
     chmod 755 /usr/bin/gitmo
     gitmo https://github.com/facebook/tornado.git
     gitmo https://github.com/sleepdev/div44.git     
 
-2. to restart the web server
+II) to restart the web server
     service div44 restart
 
 Product Description
