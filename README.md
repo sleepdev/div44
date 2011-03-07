@@ -1,24 +1,23 @@
-   
+Division 44 Website
+===================
 
-    -> Search profiles
-        1) purpose
-        2) customized search field
-            (open search)
-            (+ google operators search syntax)
-            (+ optional search builder assistant)
-            (+ github project: semi-structured, database search
-                search object with S-expression representation
-                convert from search object to sql query through customizable transformations
-            )
-            
-    -> Add profile
+Server Administration
+---------------------
 
+The tornado app is currently located at /var/div44 on 50.56.84.235
 
-sidebar
-    -> Search Profiles
-    -> Add Your Profile
-    
+I) to set up a new web server from scratch
+    aptitude install git-core
+    wget --no-check-certificate -O /usr/bin/gitmo https://github.com/sleepdev/gitmo/raw/master/gitmo
+    chmod 755 /usr/bin/gitmo
+    gitmo https://github.com/facebook/tornado.git
+    gitmo https://github.com/sleepdev/div44.git     
 
+II) to restart the web server
+    service div44 restart
+
+Product Description
+---------------------   
 
 An area where users can limit their search based on ways that researchers wish to share their expertise (see the top part of the attached document “Ways of providing service). As with the SPN directory, this list could be preceded by “List profiled professionals with an interest in:” Users would be allowed to select only one option per search. The page default would be for none of these options to be selected. There would have to be a “reset” button to allow users to deselect all options.
 An area listing research areas, where users could check as many boxes as they wish. The attached document (“Keywords”) provides an updated list of research areas.
