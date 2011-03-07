@@ -1,15 +1,7 @@
 {% extends "base.html" %}
-{% block title %}Member profiles — APA Division 44{% end %}
-{% block content %}
-  <div class="options">
-    <div class="options-c">
-      <a title="Apply for your own profile"><div>Apply for Profile</div></a>
-      <a title="Login to your account"><div>Login</div></a>
-      <a title="Search directory of profiled experts"><div class="active">Search</div></a>
-      <a title="Information about profiles"><div>Information</div></a>
-    </div>
-  </div>
-
+{% block title %}Search member profiles — APA Division 44{% end %}
+{% block member_search %}class="active"{% end %}
+{% block member_content %}
   <h1>Search member profiles</h1>
                     
   <div class="search clearfix">
@@ -18,18 +10,17 @@
     <a class="sa" href>Advanced search</a>
   </div>
   
-  <a class="profile-blurb clearfix" href="/profile/jonathan.mohr">
+  <a class="profile-blurb clearfix" href="/member/profile/jonathan.mohr">
     <h6>Jonathan Mohr</h6>
     <img src="{{ static_url("Jonathan.Mohr.jpg") }}"></img>
     <span><b>Jon Mohr</b>'s research focuses on manifestations and consequences of prejudice, discrimination, and stereotyping, as well as factors associated with positive adjustment in members of stigmatized groups. Most of his work examines these issues as they relate to sexual ...
     </span>
   </a>
 
-  <a class="profile-blurb clearfix" href="/profile/cynthia.mohr">
+  <a class="profile-blurb clearfix" href="/member/profile/cynthia.mohr">
     <h6>Cynthia Mohr</h6>
     <img src="{{ static_url("Cynthia.Mohr.jpg") }}"></img>
     <span>The focus of my research is the manner in which individuals influence one another’s perceptions and behaviors, particularly in terms of health behaviors. I examine the social support benefit of positive interpersonal relationships and exchanges. In addition, I consider how negative ...
     </span>
   </a>
-
 {% end %}

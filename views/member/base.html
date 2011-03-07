@@ -1,0 +1,13 @@
+{% extends "../base.html" %}
+{% block title %}Member profiles — APA Division 44{% end %}
+{% block content %}
+  <div class="options">
+    <div class="options-c">
+      <a title="Apply for your own profile" href="/member/apply" ><div {%block member_apply%}{%end%}>Apply for Profile</div></a>
+      <a title="Login to your account" href="/member/login" ><div {%block member_login%}{%end%}>Login</div></a>
+      <a title="Search directory of profiled experts" href="/member/search" ><div {%block member_search%}{%end%}>Search</div></a>
+      <a title="Information about profiles" href="/member/info" ><div {%block member_info%}{%end%}>Information</div></a>
+    </div>
+  </div>
+  {% block member_content %}{% end %}
+{% end %}
