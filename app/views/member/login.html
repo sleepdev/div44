@@ -1,6 +1,24 @@
 {% extends "base.html" %}
-{% block title %}Login to edit your profile — APA Division 44{% end %}
+{% block title %}Apply to be a member — APA Division 44{% end %}
 {% block member_login %}class="active"{% end %}
 {% block member_content %}
-    Let existing users sign in.
+  <form>
+    <table>
+      <tr>
+        <td><label>Email Address</label></td>
+        <td><input type="text" value=""/></td>
+      </tr>
+      <tr>
+        <td><label>Password</label></td>
+        <td><input type="password" value=""/></td>
+      </tr>
+      <tr>
+        <td><br/></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="submit" value="Login To My Account"/></td>
+      </tr>
+    </table>
+  </form>
 {% end %}
