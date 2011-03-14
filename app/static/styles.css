@@ -85,7 +85,7 @@ label { display: block; width: 12em; padding: 0em 1.5em 0em 0.5em; margin: 0.5em
 
 .signup-flow { margin: 30px auto; }
 .signup-flow td { min-width: 2em; text-align: center; }
-.signup-flow tr.top { font-size: 167%; padding: 2em 0.5em; }
+.signup-flow tr.top { font-size: 167%; padding: 2em 1em; }
 
 
 
