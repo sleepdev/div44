@@ -72,7 +72,7 @@ form { margin-top: 60px; }
 
 #content h1 { margin-left: 60px; font-size: 167%; }
 .search { margin-top: 20px; margin-left: 56px; margin-bottom: 25px; }
-.search input[type="text"] { height: 34px; width: 387px; font-size: 123.1%; border: 1px solid #b5b6b0; padding-left: 10px; padding-right: 45px; }
+.search input[type="text"] { width: 387px; font-size: 123.1%; padding-right: 45px; }
 .search input[type="submit"] { background: url(/static/magnify.png); height: 27px; width: 27px; position: relative; left: -37px; top: -5px; cursor: pointer; border: 0; }
 .sa { float: right; clear: right; margin-top: 10px; margin-right: 65px; }
 
