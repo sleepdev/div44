@@ -1,6 +1,7 @@
 #!/bin/sh
 
 pkill python
-python -c "import app" 1>>/var/log/app.stdout 2>>/var/log/app.stderr
+mkdir /var/log/app
+python -c "import app" 1>>/var/log/app/access.log 2>>/var/log/app/error.log &
 
 
