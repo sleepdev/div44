@@ -32,8 +32,8 @@ html { background: #516a89; }
     color: #5a5b51;
 }
 
-input[type="text"] { width: 20em; padding: 0.3em 0.5em; border: 1px solid #b5b6b0; }
-
+input[type="text"] { width: 20em; padding: 0.5em 0.5em; border: 1px solid #b5b6b0; }
+label { width: 20em; text-align: right; padding: 0.5em 0.5em; }  
 
 
 /* Page Specific Styles */
