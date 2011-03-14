@@ -7,6 +7,12 @@ class index( tornado.web.RequestHandler ):
 class member_apply( tornado.web.RequestHandler ):
     def get( self ): 
         self.render( "member/apply.html" )
+class member_apply2( tornado.web.RequestHandler ):
+    def get( self ):
+        self.render( "member/apply2.html" )
+class member_apply3( tornado.web.RequestHandler ):
+    def get( self ):
+        self.render( "member/apply3.html" )
 
 class member_login( tornado.web.RequestHandler ):
     def get( self ):

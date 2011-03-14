@@ -16,6 +16,8 @@ settings = dict(
 application = tornado.web.Application( [
     ( "/",                          controllers.index           ),
     ( "/member/apply",              controllers.member_apply    ),
+    ( "/member/apply.2",            controllers.member_apply2   ),
+    ( "/member/apply.3",            controllers.member_apply3   ),
     ( "/member/login",              controllers.member_login    ),
     ( "/member/search",             controllers.member_search   ),
     ( "/member/info",               controllers.member_info     ),
