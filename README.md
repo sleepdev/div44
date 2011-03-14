@@ -10,9 +10,12 @@ I) to set up a new web server from scratch
     chmod 755 /usr/bin/gitmo
     gitmo https://github.com/facebook/tornado.git
     gitmo https://github.com/sleepdev/div44.git     
+    deploy
 
-II) to restart the web server
-    service div44 restart
+II) to update & restart the web server
+    (from web server)
+    gitmo https://github.com/sleepdev/div44.git     
+    deploy
 
 Product Description
 ---------------------   
