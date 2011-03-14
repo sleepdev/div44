@@ -35,6 +35,7 @@ html { background: #516a89; }
 input[type="text"] { width: 20em; padding: 0.5em 0.5em; margin: 0.5em 0; border: 1px solid #b5b6b0; }
 label { display: block; width: 12em; padding: 0em 1.5em 0em 0.5em; margin: 0.5em 0; line-height: 2em; text-align: right; }  
 input[type="submit"] { float: right; padding: 0.5em; margin: 0.5em; border: 1px solid #b5b6b0; background-color: #d1d2cd; 
+    cursor: pointer;
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
