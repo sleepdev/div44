@@ -90,7 +90,6 @@ input[type="submit"] { float: right; padding: 0.5em; margin: 0.5em; border: 1px 
 .signup-flow { margin: 30px auto 60px; }
 .signup-flow td { min-width: 3em; text-align: center; }
 .signup-flow td.active { font-weight: bold; }
-.signup-flow tr { min-height: 2em; }
 .signup-flow tr.top { font-size: 167%; line-height: 2.5em; }
 
 
