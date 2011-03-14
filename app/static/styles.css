@@ -32,6 +32,7 @@ html { background: #516a89; }
     color: #5a5b51;
 }
 
+td { vertical-align: top; }
 input[type="text"], input[type="password"] { width: 20em; padding: 0.5em 0.5em; margin: 0.5em 0; border: 1px solid #b5b6b0; }
 label { display: block; width: 12em; padding: 0em 1.5em 0em 0.5em; margin: 0.5em 0; line-height: 2em; text-align: right; }  
 textarea { width: 20em; height: 20em; padding: 0.5em 0.5em; margin: 0.5em 0; border: 1px solid #b5b6b0; }
@@ -90,11 +91,11 @@ input[type="submit"] { float: right; padding: 0.5em; margin: 0.5em; border: 1px 
 #footer { width: 100%; height: 24px; font-size: 77%; line-height: 24px; background-color: #fbfbf3; border-top: 1px solid #b5b6b0; text-align: center; }
 
 .signup-flow { margin: 30px auto 60px; }
-.signup-flow td { min-width: 3em; text-align: center; vertical-align: top; }
+.signup-flow td { min-width: 3em; text-align: center; }
 .signup-flow td a { display: block; height: 100%; width: 100%; text-decoration: none; }
-.signup-flow td * { float: left; }
 .signup-flow td.active { font-weight: bold; }
 .signup-flow tr.top { font-size: 167%; line-height: 2.5em; }
+
 
 
 
