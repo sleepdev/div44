@@ -31,6 +31,13 @@ html { background: #516a89; }
     border-left: 1px solid #b5b6b0; border-right: 1px solid #b5b6b0;
     color: #5a5b51;
 }
+
+input[type="text"] { width: 20em; padding: 0.3em 0.5em; border: 1px solid #b5b6b0; }
+
+
+
+/* Page Specific Styles */
+
 #header { width: 780px; height: 125px; background: url(/static/bg_masthead.jpg); border-bottom: 1px solid #b5b6b0; }
 #header ul { float: right; position: relative; top: 10px; right: 10px; font-size: 85%; } 
 #header li { float: left; }
