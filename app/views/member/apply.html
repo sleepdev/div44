@@ -2,5 +2,30 @@
 {% block title %}Apply to be a member — APA Division 44{% end %}
 {% block member_apply %}class="active"{% end %}
 {% block member_content %}
-  Ask for information related to signup.
+  <div class="signup-flow">
+    <div class="1 active">
+      <p>1</p>
+      <p>Contact & Account Info</p>
+    </div>
+    <div class="2">
+      <p>2</p>
+      <p>Name, Organization, Bio</p>
+    </div>
+    <div class="3">
+      <p>3</p>
+      <p>Research Interests<br/>Service Opportunities</p>
+    </div>
+  </div>
+  <form>
+    <table>
+      <tr>
+        <td><label>A form field</label></td>
+        <td><input type="text" value=""/></td>
+      </tr>
+      <tr>
+        <td><label>A form field</label></td>
+        <td><input type="text" value=""/></td>
+      </tr>
+    </table>
+  </form>
 {% end %}

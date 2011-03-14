@@ -13,7 +13,6 @@ I) to set up a new web server from scratch
     deploy
 
 II) to update & restart the web server
-    (from web server)
     gitmo https://github.com/sleepdev/div44.git     
     deploy
 

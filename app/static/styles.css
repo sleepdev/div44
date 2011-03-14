@@ -59,7 +59,7 @@ html { background: #516a89; }
 #content h1 { margin-top: 80px; margin-left: 60px; font-size: 167%; }
 .search { margin-top: 20px; margin-left: 56px; margin-bottom: 25px; }
 .search input[type="text"] { height: 34px; width: 387px; font-size: 123.1%; border: 1px solid #b5b6b0; padding-left: 10px; padding-right: 45px; }
-.search input[type="submit"] { background: url(_/magnify.png); height: 27px; width: 27px; position: relative; left: -37px; top: -5px; cursor: pointer; border: 0; }
+.search input[type="submit"] { background: url(/static/magnify.png); height: 27px; width: 27px; position: relative; left: -37px; top: -5px; cursor: pointer; border: 0; }
 .sa { float: right; clear: right; margin-top: 10px; margin-right: 65px; }
 
 .options { color: white; background: url(/static/featured_bg.jpg) 0 -50px repeat-x; }
@@ -78,6 +78,7 @@ html { background: #516a89; }
 
 
 
-
+.signup-flow > .1 { float: left; width: 200px; text-align: center; }
+.signup-form > tr { height: 50px; margin: 0 auto; }
 
 
