@@ -86,6 +86,6 @@ label { display: block; width: 12em; padding: 0em 1.5em 0em 0.5em; margin: 0.5em
 .signup-flow { margin: 30px auto 60px; }
 .signup-flow td { min-width: 3em; text-align: center; }
 .signup-flow tr.top { font-size: 167%; line-height: 2.5em; }
-
+.signup-flow col.active { text-decoration: none; background-color: #e8e8e0; border: 1px solid #b5b6b0; }
 
 
