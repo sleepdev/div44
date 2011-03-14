@@ -1,6 +1,0 @@
-#!/bin/sh
-
-cd /var/app
-env -i git pull
-cp /var/app/scripts/app.d /etc/init.d/
-env -i /etc/init.d/app.d restart
