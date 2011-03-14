@@ -94,6 +94,7 @@ input[type="submit"] { float: right; padding: 0.5em; margin: 0.5em; border: 1px 
 .signup-flow td a { display: block; height: 100%; width: 100%; text-decoration: none; }
 .signup-flow td.active { font-weight: bold; }
 .signup-flow tr.top { font-size: 167%; line-height: 2.5em; }
+.signup-flow td * { vertical-align: top; }
 
 
 
