@@ -34,7 +34,7 @@ html { background: #516a89; }
 
 input[type="text"], input[type="password"] { width: 20em; padding: 0.5em 0.5em; margin: 0.5em 0; border: 1px solid #b5b6b0; }
 label { display: block; width: 12em; padding: 0em 1.5em 0em 0.5em; margin: 0.5em 0; line-height: 2em; text-align: right; }  
-input[type="textarea"] { width: 20em; padding: 0.5em 0.5em; margin: 0.5em 0; border: 1px solid #b5b6b0; }
+textarea { width: 20em; height: 20em; padding: 0.5em 0.5em; margin: 0.5em 0; border: 1px solid #b5b6b0; }
 input[type="submit"] { float: right; padding: 0.5em; margin: 0.5em; border: 1px solid #b5b6b0; background-color: #d1d2cd; 
     cursor: pointer; color: #5A5B51; font-weight: bold;
     -moz-border-radius: 3px;
