@@ -83,9 +83,9 @@ label { display: block; width: 12em; padding: 0em 1.5em 0em 0.5em; margin: 0.5em
 
 #footer { width: 100%; height: 24px; font-size: 77%; line-height: 24px; background-color: #fbfbf3; border-top: 1px solid #b5b6b0; text-align: center; }
 
-.signup-flow { margin: 10px auto; }
-.signup-flow td { min-width: 10em; }
-.signup-flow tr.top { font-size: 167%; padding: 1em 0.5em; }
+.signup-flow { margin: 30px auto; }
+.signup-flow td { min-width: 2em; text-align: center; }
+.signup-flow tr.top { font-size: 167%; padding: 2em 0.5em; }
 
 
 
