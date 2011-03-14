@@ -1,4 +1,5 @@
 #!/bin/sh
+
 pkill python
 python /var/app/__init__.py 80  1>>/var/log/app.stdout 2>>/var/log/app.stderr
 
